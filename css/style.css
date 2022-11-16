@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility */
+
+.color-white{
+    color: white;
+}
+
+.background-dark-blue{
+    background-color: rgb(28, 32, 87);
+}
+
+.background-fuchsia{
+    background-color: fuchsia;
+}
+
+.background-light-blue{
+    background-color: lightblue;
+}
+
+.background-blue{
+    background-color: blue;
+}
+
+.background-black{
+    background-color: black;
+}
+
+.background-aquamarine{
+    background-color: aquamarine;
+}
+
+.background-wheat{
+    background-color: wheat;
+}
+
+.border-radius-10{
+    border-radius: 10px;
+}
+
+
+/* Temp */
+
+.flex-row{
+    display: flex;
+}
+
+.height-50{
+    height: 50px;
+}
+
+.height-200{
+    height: 200px;
+}
+
+.height-400{
+    height: 400px;
+}
