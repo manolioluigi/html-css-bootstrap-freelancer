@@ -40,6 +40,10 @@
     background-color: rgba(28,131,193,255);
 }
 
+.background-blue-footer{
+    background-color: rgba(58,84,109,255)
+}
+
 .background-blue-a-little-dark{
     background-color: rgba(14,56,181,255);
 }
@@ -105,20 +109,16 @@
     border: none;
 }
 
-/* Temp */
-
-.flex-row{
-    display: flex;
+.circle{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
 }
 
-.height-50{
-    height: 50px;
-}
+/* Misc */
 
-.height-200{
-    height: 200px;
-}
-
-.height-400{
-    height: 400px;
+footer a{
+    text-decoration: none;
+    color: rgba(26,188,156,255);
 }
