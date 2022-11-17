@@ -9,6 +9,11 @@
     margin: auto;
 }
 
+::placeholder{
+    opacity: 1;
+    color: black;
+}
+
 /* Utility */
 
 .color-white{
@@ -67,6 +72,10 @@
     width: 250px;
 }
 
+.width-full{
+    width: calc(100%);
+}
+
 .hr-star{
     opacity: 1;
     border: 2px solid white;
@@ -83,6 +92,17 @@
 
 .margin-bottom-50{
     margin-bottom: 50px;
+}
+
+.input-borders{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.178);
+}
+
+.green-button{
+    width: fit-content;
+    background-color: rgba(26,188,156,255);
+    border: none;
 }
 
 /* Temp */
