@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.my-container{
+    width: 75%;
+    margin: auto;
+}
+
 /* Utility */
 
 .color-white{
@@ -11,7 +16,7 @@
 }
 
 .background-dark-blue{
-    background-color: rgb(28, 32, 87);
+   background-color: rgba(44,62,80,255);
 }
 
 .background-fuchsia{
@@ -31,7 +36,7 @@
 }
 
 .background-aquamarine{
-    background-color: aquamarine;
+    background-color: rgba(26,188,156,255);
 }
 
 .background-wheat{
@@ -42,6 +47,18 @@
     border-radius: 10px;
 }
 
+.width-100{
+    width: 100px;
+}
+
+.width-150{
+    width: 150px;
+}
+
+.hr-star{
+    opacity: 1;
+    border: 2px solid white;
+}
 
 /* Temp */
 
